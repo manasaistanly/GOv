@@ -128,7 +128,7 @@ def education_chat(message, history):
         return get_events()
 
     # Handle education-related queries
-    API_URL = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta"
+    API_URL = ""
     headers = {"Authorization": f""}
     
     # Prepare payload for the API
